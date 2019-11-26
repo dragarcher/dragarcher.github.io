@@ -1,0 +1,104 @@
+﻿body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(white, yellow)
+}
+
+header {
+    color:  goldenrod;
+    text-align: center;
+}
+
+nav {
+    width: 66%;
+    background-color: orange;
+    height: 40px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+nav a {
+    color:yellow;
+    margin: 2px;
+    padding: 10px 7px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+nav a:hover {
+    color: coral;
+    text-decoration-line: underline;
+}
+
+aside img {
+    border-radius: 7px ;
+    box-shadow: 5px 5px 0px gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+aside {
+    background-color: lightgray;
+    float: right;
+    width: 30%;
+    
+}
+
+aside p {
+    padding: 15px;;
+}
+
+aside p::first-letter {
+    font-size: 200%;
+  }
+
+  article {
+    width: 65.5%;
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    display: block;
+    margin-top: 75px;
+    background-color: lightgoldenrodyellow;
+  }
+
+  h2 a {
+      padding: 10px;
+      
+  }
+
+  article img {
+    border: 3px solid black;
+    display: block;
+    margin: 10px;
+    float: left;
+  }
+
+  article p {
+      padding: 10px;
+  }
+
+ section figure {
+     background-color: goldenrod;
+     width: 250px;
+     padding: 10px;
+     float: left; 
+    }
+
+ figure img {
+     width: 100%;
+ }
+
+ footer {
+     background-color: lightsteelblue;
+     justify-content: center;
+     align-items: center;
+     height: 50px;
+     margin: 1%;
+     clear: both;
+     display: flex;
+ }
